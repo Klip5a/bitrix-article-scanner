@@ -1,0 +1,22 @@
+{
+  "name": "bitrixarticlescanner",
+  "version": "1.0.0",
+  "description": "A tool to scan and extract product information from a Bitrix-powered site based on a list of articles. It highlights products with photos in a table by marking them with a specified color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://t.me/klip5a",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "progress": "^2.0.3",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "mocha": "10.7.0"
+  }
+}
